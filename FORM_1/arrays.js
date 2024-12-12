@@ -6,3 +6,4 @@ console.log(soma)
 //for each nao altera o array original mas nao cria nenhum array novo tambem
 //filter pede uma função que retorna um booleano e com base nesse retorno ele filtra os valores que voltam true
 //reduce recebe uma função com dois parametros um acumulador e o elemento iterado, alem da função ele recebe o valor inicial do acumulador
+//em arrays para clonar precisa se usar a sintaxe = [...arrayaserclonado] se não ele somente faz uma referencia ao array a ser clonado
